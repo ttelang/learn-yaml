@@ -1,0 +1,23 @@
+---
+- Title: "Learn YAML from Scratch"
+- Message: "Welcome to this course"
+- Learning Objective:  
+  - "What is YAML?"
+  - "Basic Syntax"
+  - "Data Types"
+  - "Using Complex data types"
+  - "Advance features and capabilities"
+  - "Tools and Technologies leveraging YAML"
+  - "Creating and Validating YAML Data"
+---
+- Key: data
+- KEY: DATA
+- key: 
+  - Data 
+  - data
+  - DATA
+---
+- file extension: 
+  - '.yml'
+  - '.yaml'
+...
