@@ -1,2 +1,2 @@
-# learn-yaml-from-scratch
-Source code for my udemy course learn yaml from scratch
+# Learn YAML from Scratch
+This repo contains source code for the udemy course titled "Learn YAML from Scratch" by Tarun Telang. 
