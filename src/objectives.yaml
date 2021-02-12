@@ -1,8 +1,11 @@
-- title: Learn YAML from Scratch
-- message: Welcome to this course
-- Course Objective: 
+---
+- Title: Learn YAML from Scratch
+- Message: "Welcome to this course"
+- Learning Objective: 
     - What is YAML?
-    - Syntax of YAML
-    - Various Data Types in YAML
-    - Using YAML data types
-    - YAML's key features and advance capabilities
+    - Basic Syntax
+    - "Data Types"
+    - "Using Complex data types"
+    - "Advance features and capabilities"
+    - "Tools and Technologies leveraging YAML"
+    - "Creating and Validating YAML Data"
