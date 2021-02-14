@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Departments>
+    <name>HR</name>
+    <head>Director</head>
+    <Employees>
+          <Employee>
+             <id>12</id>
+             <name>John</name>
+             <manager>123</manager>
+             <date_of_joining>2002-01-09</date_of_joining>
+    </Employees>
+</Departments>
