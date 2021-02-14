@@ -1,0 +1,16 @@
+{
+  "Departments": [
+    {
+      "name": "HR",
+      "head": "Director",
+      "Employees": [
+        {
+          "id": 12,
+          "name": "John",
+          "manager": 123,
+          "date_of_joining": "2002-01-09"
+        }
+      ]
+    }
+  ]
+}
