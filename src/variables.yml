@@ -1,0 +1,80 @@
+# Variable - name followed by a colon (`:`) and a single space (` `) 
+# defines a variable (scalars). 
+
+string: "Hello"
+integer: 123
+float: 12.345
+boolean: No
+
+# A `|` character denotes a string with newlines preserved. 
+
+text: | 
+  Every line in this text 
+  will be stored 
+  as separate lines.
+# "text": "Every line in this text \nwill be stored \nas separate lines\n",
+ 
+# A `>` character denotes a string with newlines folded.
+
+text: > 
+  This text will
+  be wrapped into
+  a single paragraph
+## Tags - explicitly specifying data types.
+
+# YAML can auto-detect the data types, but users can also specify the type they need. 
+# To force a type you can prefix the type with `!!` symbol. 
+
+age: !!float 23
+married: !!str true
+
+
+## Integers - finite mathematical integers
+
+negative: !!int -12 
+zero: !!int 0
+positive: !!int 23
+binary: 0b101010
+octal: 01672
+hexadecimal: 0x1C7A
+number: +687_456
+sexagesimal: 180:30:20 # base 60
+
+## Floating Point - real numbers
+
+negative: !!float -1.23
+zero: !!float 0.0
+positive: !!float 2.3e4
+inifiity: !!float .inf
+not a number: !!float .nan
+
+## Boolean - a true/false value.
+
+married: !!bool true
+odd: !!bool false
+
+## String - string, a sequence of zero or more Unicode characters.\
+
+name: !!str "James"
+message: !!str "This is a \n multiline text"
+
+# escape sequences can also be used within double-quotes
+# to represent non-printable characters. 
+# YAML escape sequences are a superset of C's escape sequences. 
+
+## Null 
+
+manager: !!null null
+blank:
+tilde: ~
+title: null
+~: null key
+
+## TimeStamp - time ISO8601 format. If no time zone, UTC is assumed 
+# time is defaulted to 00:00:00Z
+
+time: 2020-12-07T01:02:59:34.02Z
+timestamp: 2020-12-07T01:02:59:34.02 +05:30
+datetime: 2020-12-07T01:02:59:34.02+05:30
+notimezone: 2020-12-07T01:02:59:34.02
+date: 2020-12-07
