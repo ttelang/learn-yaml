@@ -1,0 +1,8 @@
+# Explicitly typed set.
+players: !!set
+  ? Mark
+  ? Steve
+  ? Smith
+
+# Flow style
+soccer teams: !!set { Chelsea, Arsenal, Liverpool }
