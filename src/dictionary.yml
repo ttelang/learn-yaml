@@ -1,0 +1,9 @@
+Fruits: !!omap # Explicitly typed ordered map
+  - Apple:  
+      calories: 120
+      fat: 0.2 g
+      carbs: 35 g
+  - Banana: 
+      calories: 105
+      fat: 0.4 g
+      carbs: 27 g
