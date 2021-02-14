@@ -1,0 +1,7 @@
+# Explicitly typed pairs.
+Block tasks: !!pairs
+  - meeting: standup
+  - meeting: demo
+  - break: lunch
+  - meeting: all hands
+Flow tasks: !!pairs [ meeting: standup, meeting: lunch ]
