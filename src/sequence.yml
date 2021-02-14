@@ -1,0 +1,5 @@
+# Ordered sequence of nodes
+colors: !!seq
+  - red
+  - orange
+  - yellow
