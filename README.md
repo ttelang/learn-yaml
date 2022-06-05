@@ -7,5 +7,4 @@ This repo contains source code for the following content
 - "[Introduction to YAML](https://leanpub.com/c/yaml-course)" course by Tarun Telang at LeanPub  
 - "[Learn YAML from Scratch](https://visiondrill.com/instructor/511/courses)" course by Tarun Telang at Vision Drill
 - "[Introduction to YAML: Demystifying YAML Data Serialization Format](https://www.amazon.in/Introduction-YAML-Demystifying-Serialization-Format/dp/B08R6MTK8L)" Book by Tarun Telang at Amazon Kindle Store.
-- Book at Smashword
 - [Learn YAML from Scratch](https://www.skillshare.com/r/user/taruntelang?gr_tch_ref=on&gr_trp=on) course by Tarun Telang at Skillshare
